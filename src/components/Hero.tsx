@@ -21,7 +21,13 @@ const Hero = () => {
         <Typed
           className="font-semibold text-4xl md:text-7xl mb-4 text-gray-300"
           strings={[
-            "Cleaners", "Carpenters", "Mechanics", "Plumbers", "Electricians", "Handymen",
+            "Cleaners",
+            "Plumbers",
+            "Electricians",
+            "Handymen",
+            "Gardners",
+            "Painters",
+            "Home Improvers",
           ]}
           typeSpeed={120}
           backSpeed={140}
@@ -35,7 +41,7 @@ const Hero = () => {
           ipsa laborum aperiam ad delectus dolorem earum deleniti debitis sunt
           quasi.
         </p>
-        <button className="mx-auto px-6 py-3 mb-6 bg-[#273A69]  hover:bg-[#273A69] rounded-full font-medium ">
+        <button className="mx-auto px-6 py-3 mb-6 bg-[#273A69]  hover:bg-[#11192e] rounded-full font-medium ">
           Get the app
         </button>
       </div>
