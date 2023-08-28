@@ -1,18 +1,36 @@
-import LogoBlue from '../assets/images/LogoBlue.svg'
+import LogoBlue from "../assets/images/LogoBlue.svg";
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between py-4 items-center px-8'>
-        <img src={LogoBlue} alt="ServisGo Logo" />
-        <ul className='flex'>
-            <li><button className='p-4 text-gray-500 font-medium'>How to use</button></li>
-            <li><button className='p-4 text-gray-500 font-medium'>Safety</button></li>
-            <li><button className='p-4 text-gray-500 font-medium'>Support</button></li>
-            <li><button className='p-4 text-gray-500 font-medium'>Download</button></li>
-            <li><button className='p-4 text-gray-500 font-medium'>Apply to be a Partner</button></li>
-        </ul>
+    <div className="flex justify-between py-4 items-center px-6 mx-auto relative z-10">
+      <img className="w-32" src={LogoBlue} alt="ServisGo Logo" />
+      <ul className="hidden md:flex">
+        <li>
+          <button className="p-4 text-white text-sm font-medium">
+            How to use
+          </button>
+        </li>
+        <li>
+          <button className="p-4 text-white text-sm font-medium">Safety</button>
+        </li>
+        <li>
+          <button className="p-4 text-white text-sm font-medium">
+            Support
+          </button>
+        </li>
+        <li>
+          <button className="p-4 text-white text-sm font-medium">
+            Download
+          </button>
+        </li>
+        <li>
+          <button className="p-4 text-white text-sm font-medium">
+            Apply to be a Partner
+          </button>
+        </li>
+      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
