@@ -1,4 +1,5 @@
 import HeroImg from "../assets/images/heroBG.jpg";
+import Typed from "react-typed";
 
 const Hero = () => {
   return (
@@ -17,7 +18,15 @@ const Hero = () => {
         <h1 className="font-semibold text-4xl md:text-7xl">
           Hire professional
         </h1>
-        <h1 className="font-semibold text-4xl md:text-7xl mb-4">Any Job</h1>
+        <Typed
+          className="font-semibold text-4xl md:text-7xl mb-4 text-gray-300"
+          strings={[
+            "Cleaners", "Carpenters", "Mechanics", "Plumbers", "Electricians", "Handymen",
+          ]}
+          typeSpeed={120}
+          backSpeed={140}
+          loop
+        />
       </div>
       <div className="max-w-[500px] relative z-10">
         <p className="md:text-xl text-lg justify-center py-4 mb-4">
@@ -26,7 +35,7 @@ const Hero = () => {
           ipsa laborum aperiam ad delectus dolorem earum deleniti debitis sunt
           quasi.
         </p>
-        <button className="mx-auto px-6 py-3 mb-6 bg-[#273A69]  hover:bg-[#0f172a] rounded-full font-medium ">
+        <button className="mx-auto px-6 py-3 mb-6 bg-[#273A69]  hover:bg-[#273A69] rounded-full font-medium ">
           Get the app
         </button>
       </div>
