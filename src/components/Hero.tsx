@@ -34,12 +34,13 @@ const Hero = () => {
           loop
         />
       </div>
-      <div className="max-w-[500px] relative z-10">
+      <div className="max-w-[600px] relative z-10">
         <p className="md:text-xl text-lg justify-center py-4 mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
-          iure repudiandae, nesciunt natus nemo alias vero nam ullam numquam
-          ipsa laborum aperiam ad delectus dolorem earum deleniti debitis sunt
-          quasi.
+          Welcome to ServisGo, your go-to solution for hassle-free home
+          services! Our innovative mobile application connects you with a
+          network of skilled professionals, ready to assist with various tasks
+          at your convenience. From plumbing and electrical work to cleaning and
+          repairs, we bring expert services right to your doorstep.
         </p>
         <button className="mx-auto px-6 py-3 mb-6 bg-[#273A69]  hover:bg-[#11192e] rounded-full font-medium ">
           Get the app
