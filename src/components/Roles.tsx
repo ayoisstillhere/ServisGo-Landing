@@ -6,7 +6,7 @@ import BoltIcon from "../assets/icons/bolt-svgrepo-com.svg";
 
 import { useState } from "react";
 
-const Services = () => {
+const Roles = () => {
   const [isHomeOwner, setIsHomeOwner] = useState(true);
 
   const handleHomeOwner = () => {
@@ -75,7 +75,8 @@ const Services = () => {
                 <p className="mb-2">Book on demand:</p>
               </div>
               <p className="font-normal text-sm lg:ml-8">
-                Connect with service porviders near you to get the job done on demand!
+                Connect with service porviders near you to get the job done on
+                demand!
               </p>
             </div>
             <div className="mb-6">
@@ -119,7 +120,8 @@ const Services = () => {
                 <p className="mb-2">Reliable earnings:</p>
               </div>
               <p className="font-normal text-sm lg:ml-8">
-                You’ll receive your earnings from all the jobs at the end of each week.
+                You’ll receive your earnings from all the jobs at the end of
+                each week.
               </p>
             </div>
             <div className="mb-6">
@@ -160,4 +162,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Roles;
