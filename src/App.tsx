@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Roles from "./components/Roles";
+import ServiceList from "./components/ServiceList";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <Roles />
+      <ServiceList />
     </>
   );
 }
