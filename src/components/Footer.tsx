@@ -1,3 +1,9 @@
+import {
+  FaFacebookSquare,
+  FaInstagram,
+  FaTwitterSquare,
+} from "react-icons/fa";
+
 const Footer = () => {
   return (
     <div className="py-20 bg-black px-6 text-white">
@@ -100,7 +106,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex"></div>
+      <div className="flex mt-6 gap-5">
+          <FaFacebookSquare size={30} />
+          <FaInstagram size={30} />
+          <FaTwitterSquare size={30} />
+        </div>
     </div>
   );
 };
