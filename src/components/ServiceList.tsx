@@ -8,7 +8,7 @@ import ImprovementIcon from "../assets/icons/ImprovementIcon.svg";
 
 const ServiceList = () => {
   return (
-    <div className="my-12 py-6 px-24 bg-[#EFEFEF]">
+    <div className="py-6 px-24 bg-[#EFEFEF] pb-16">
       <h2 className="font-semibold mt-16 text-3xl md:text-5xl mb-16 text-center">
         Our Services
       </h2>

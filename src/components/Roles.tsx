@@ -14,7 +14,7 @@ const Roles = () => {
   };
 
   return (
-    <div className="w-full text-center md:px-20 px-6">
+    <div className="w-full text-center md:px-20 px-6 pb-10">
       <h2 className="font-semibold mt-16 text-3xl md:text-5xl mb-6 text-center">
         Earn Money or Book Services
       </h2>
